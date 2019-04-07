@@ -118,7 +118,7 @@ input[type=submit]{
 
 }
 section #portfolio img{
-    background
+
     display:inline;
     margin-left:auto;
     margin-right: auto;
@@ -132,3 +132,47 @@ section #portfolio img{
     background: url('..container');
   
   }
+  @media(max-width:980px){
+    .container{
+        width:100%;
+        max-width: 960px;
+    }
+.footer{
+   width:100%;
+  
+}
+.header{
+   width:100%;
+}
+}
+
+  @media screen and (max-width:768px){
+    .container{
+        width:100%;
+        max-width: 960px;
+    }
+.footer{
+   width:100%;
+}
+.header{
+   width:100%;
+}
+}
+@media screen and (max-width:640px){
+    .container{
+        width:100%;
+       
+    }
+.footer{
+   width:100%;
+}
+.header{
+   width:100%;
+}
+#branding{
+    width:100%;
+}
+nav{
+    width:100%;
+}
+}
